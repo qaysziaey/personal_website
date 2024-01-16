@@ -1,0 +1,15 @@
+.profile_img {
+  max-width: 40%;
+}
+
+.submit_btn {
+  background-color: orange;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.submit_btn,
+a {
+  text-decoration: none;
+}
