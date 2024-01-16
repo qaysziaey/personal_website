@@ -6,16 +6,21 @@
     <title>Contact</title>
   </head>
   <body>
+    <button class="submit_btn"><a href="index.html">Zurück</a></button>
     <header>
       <h1>Lets get to know more.</h1>
     </header>
-    <main>
-      <h2>Contact Form</h2>
-      <form action="">
+    <main class="form_container">
+      <p>
+        Here we can stay in touch, and i would love to provide answer to you
+        Questions
+      </p>
+      <form class="contact_form" action="">
         <label for="email">E-Mail:</label>
-        <input type="email" name="name" id="email" />
+        <input type="email" name="name" id="email" /><br />
         <label for="message">Message:</label>
-        <textarea name="message" id="msg" cols="30" rows="10"></textarea>
+        <input type="text" name="message" id="msg" /><br />
+        <br />
         <button class="submit_btn" type="submit">Submit</button>
       </form>
     </main>
