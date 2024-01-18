@@ -7,6 +7,7 @@
   border-radius: 10px;
   padding: 15px 40px 15px 40px;
   box-shadow: 0 1px 3px rgb(203, 203, 203);
+  margin: 5px;
 }
 
 .primary_btn:hover {
@@ -25,6 +26,7 @@
   border-radius: 10px;
   padding: 15px 40px 15px 40px;
   box-shadow: 0 1px 3px rgb(203, 203, 203);
+  margin: 5px;
 }
 
 .secondary_btn:hover {
