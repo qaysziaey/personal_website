@@ -1,0 +1,35 @@
+.primary_btn {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px 40px 15px 40px;
+  box-shadow: 0 1px 3px rgb(203, 203, 203);
+}
+
+.primary_btn:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(233, 233, 233);
+}
+
+.secondary_btn {
+  background-color: white;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 10px;
+  padding: 15px 40px 15px 40px;
+  box-shadow: 0 1px 3px rgb(203, 203, 203);
+}
+
+.secondary_btn:hover {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  border: 1px solid black;
+}
