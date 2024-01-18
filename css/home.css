@@ -1,0 +1,49 @@
+/*
+font-family: 'Space Grotesk', sans-serif;
+*/
+
+main {
+  margin-top: 100px;
+  border: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px 120px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.image img {
+  box-shadow: var(--box-shadow);
+  border-radius: 50px;
+  border: 1px solid var(--border-color);
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.portfolio_description {
+  padding: 20px 50px;
+}
+
+.portfolio_title {
+  font-size: 40px;
+  color: black;
+  line-height: 40px;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .image img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+  }
+  .portfolio_title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .portfolio_description {
+    text-align: center;
+  }
+}
