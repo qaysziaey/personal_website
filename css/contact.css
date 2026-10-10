@@ -1,6 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.contact_form {
+  border: 1px solid var(--border-color);
+
+  padding: 30px;
+  border-radius: var(--border-radius);
+  background-color: white;
+  box-shadow: 0 1px 2px var(--border-color);
+}
 .contact_form input {
+  width: 500px;
+  padding: 15px 10px;
+  border-radius: 6px;
+  border: 1px solid rgb(232, 232, 232);
+  margin: 5px;
+}
+
+.contact_form textarea {
+  width: 500px;
   padding: 20px;
-  border-radius: 8px;
-  border: 2px solid rgb(232, 232, 232);
+  border-radius: 6px;
+  border: 1px solid rgb(232, 232, 232);
   margin: 5px;
 }
